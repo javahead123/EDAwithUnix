@@ -23,3 +23,14 @@ EDAwithUnix
                                  m"                        
                                 ""            
 Hello EDA!
+
+
+## Installation
+Clone the git repo in the directory of your choice, and then symlink the commands into `/usr/local/bin`:
+
+    git clone git@github.com:javahead123/EDAwithUnix.git
+    cd EDAwithUnix
+    ln -s `pwd -P`/rline.py /usr/local/bin/rline
+
+
+## `rline` An EDA core util
